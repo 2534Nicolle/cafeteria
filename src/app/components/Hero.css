@@ -1,0 +1,54 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F0E5;
+    background-size: 100% 100%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    width: 50%;
+    min-width: 320px;
+    padding-left: 100px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 300;
+    color: black;
+    font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+}
+
+.hero-subtitle {
+    font-size: 3rem;
+    font-weight: 300;
+    color: black;
+    font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+}
+
+.hero-phrase {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 1rem;
+    max-width: 350px;
+    margin-top: 1rem;
+}
+
+.hero-description {
+    display: block;
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 1rem;
+    font-weight: 1.5rem;
+}
+
+.hero-image {
+    display: flex;
+    width: 50%;
+    padding: 30px;
+    margin-top: 10px;
+}
